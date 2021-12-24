@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UC3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the Number:- ");
+        System.out.println("Enter the Number:- ");
         int num = input.nextInt();
 
         if (primeNum(num))
